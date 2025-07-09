@@ -1,0 +1,54 @@
+body {
+  font-family: 'Helvetica Neue', sans-serif;
+  background-color: #f0f8ff;
+  margin: 0;
+  padding: 0;
+  color: #2c3e50;
+}
+
+header {
+  background-color: #cfe9f6;
+  padding: 2rem;
+  text-align: center;
+}
+
+h1 {
+  font-size: 2.5rem;
+  margin: 0;
+}
+
+p {
+  font-size: 1rem;
+}
+
+.products {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  padding: 2rem;
+  flex-wrap: wrap;
+}
+
+.product {
+  text-align: center;
+  max-width: 200px;
+}
+
+.product img {
+  width: 100%;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+a {
+  text-decoration: none;
+  color: #0077cc;
+  font-weight: bold;
+}
+
+footer {
+  background-color: #e1eff7;
+  text-align: center;
+  padding: 1rem;
+  font-size: 0.9rem;
+}
