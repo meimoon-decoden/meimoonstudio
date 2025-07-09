@@ -1,32 +1,74 @@
 body {
-  font-family: 'Helvetica Neue', sans-serif;
-  background-color: #f0f8ff;
   margin: 0;
-  padding: 0;
-  color: #2c3e50;
+  font-family: 'Helvetica Neue', sans-serif;
+  background-color: #FFFFFF;
+  color: #3D5770;
 }
 
 header {
-  background-color: #cfe9f6;
-  padding: 2rem;
-  text-align: center;
+  background-color: #BBCEDE;
 }
 
-h1 {
-  font-size: 2.5rem;
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.5rem 1rem;
+  flex-wrap: wrap;
+}
+
+.logo {
+  height: 50px;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 1.2rem;
   margin: 0;
+  padding: 0;
+  flex-wrap: wrap;
 }
 
-p {
-  font-size: 1rem;
+.nav-links li a {
+  text-decoration: none;
+  color: #000000;
+  font-weight: 600;
+}
+
+.nav-icons span {
+  margin-left: 1rem;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+
+.hero {
+  text-align: center;
+  padding: 4rem 1rem 2rem;
+  background-color: #E9F2F9;
+}
+
+.hero h1 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.shop-button {
+  display: inline-block;
+  background-color: #3D5770;
+  color: #FFFFFF;
+  padding: 0.75rem 1.5rem;
+  text-decoration: none;
+  border-radius: 25px;
+  font-weight: bold;
 }
 
 .products {
   display: flex;
   justify-content: center;
+  flex-wrap: wrap;
   gap: 2rem;
   padding: 2rem;
-  flex-wrap: wrap;
 }
 
 .product {
@@ -40,15 +82,21 @@ p {
   box-shadow: 0 4px 6px rgba(0,0,0,0.1);
 }
 
-a {
-  text-decoration: none;
-  color: #0077cc;
-  font-weight: bold;
-}
-
 footer {
-  background-color: #e1eff7;
+  background-color: #BBCEDE;
   text-align: center;
   padding: 1rem;
   font-size: 0.9rem;
 }
+🔹 Step 3: File Setup
+Make sure your folder contains:
+
+pgsql
+Copy code
+📁 meimoonstudio-website/
+├── index.html
+├── style.css
+└── images/
+    ├── logo.png       ← your uploaded logo
+    ├── case1.jpg      ← (placeholder or real product)
+    └── charm1.jpg     ← (placeholder or real product)
